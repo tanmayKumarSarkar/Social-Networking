@@ -1,0 +1,339 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ---------------------------------- css for the main page --------------------------------------------------*/
+#onlnFrnds {
+	height: 560px;
+	width: 318px;
+	border: 1px solid rgba(102,102,102,1);
+	border-left:inset 1px #BE73F0;
+	border-top:inset 1px #BE73F0;
+	position:fixed;
+	right:-333px;
+	top:78px;
+	z-index:2000;
+	background-color:rgba(189,251,251,0.8);
+	border-radius: 6px;
+	-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	box-shadow: rgba(0,0,0,1) 0 1px 0;
+}
+#ChatHead {
+	background-color:rgba(100,92,233,1);
+	width:318px;
+	height:22px;
+	border-radius: 6px 6px 2px 2px;
+	-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	box-shadow: rgba(0,0,0,1) 0 1px 0;
+	text-shadow:rgba(255,255,255,1) 2px 2px 2px;
+	font-family: "Comic Sans MS", cursive;
+	font-style:italic;
+	font-size:16px;	
+}
+#onlnFrndsCallerBar {
+	width:86px;
+	height:30px;
+	position:absolute;
+	right:313px;
+	z-index:5px;
+	top:60px;
+	background-color:rgba(90,13,153,0.7);
+	border-radius: 6px;
+	-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	box-shadow: rgba(0,0,0,1) 0 1px 0;
+}
+#onlnFrndsCallerShape {
+	width:0; 
+    height:50px; 
+    border-right:31px solid blue;
+    border-left:34px solid blue;
+    border-bottom:16px solid transparent;
+	position:absolute;
+	left:2px;
+	top:2px;
+	z-index:2000;
+	cursor:pointer;
+	font-family: "Comic Sans MS", cursive;
+	font-style:italic;
+	border-radius: 6px;
+	-webkit-box-shadow: rgba(0,0,0,1) 0 0px 0;
+	-moz-box-shadow: rgba(0,0,0,1) 0 0px 0;
+	box-shadow: rgba(0,0,0,1) 0 0px 0;
+}
+#onlnFrndsCaller {
+	width:50px;
+	position:absolute;
+	left:-33px;
+	top:-1px;
+	text-shadow:rgba(255,255,255,1) 2px 2px 2px;
+}
+#onlnFrndsCaller:hover {
+	width:50px;
+	position:absolute;
+	left:-33px;
+	top:-1px;
+	text-outline:rgba(255,255,255,1);
+	text-shadow:rgba(183,220,114,1) 2px 2px 2px;
+	color:rgba(255,0,0,1);
+}
+#CHTUser {
+	width:auto;
+	height:350px;
+	position:absolute;
+	left:-313px;
+	z-index:500;
+	bottom:5px;
+	visibility:visible;
+}
+#CHTUserMin {
+	width:164px;
+	height:30px;
+	position:absolute;
+	left:-220px;
+	z-index:50;
+	bottom:5px;
+	padding-left:6px;
+	text-shadow:rgba(103,201,14,1) 1px 1px;
+	font-family: "Comic Sans MS", cursive;
+	font-style:italic;
+	font-size:16px;
+	letter-spacing:0.9px;
+	color:rgba(213,252,122,1);
+	visibility:hidden;
+	cursor:pointer;
+	}
+
+/* ------------------------------------ css for friends frame --------------------------------------------*/
+
+#ChatBoxBody {
+	font-family: "Comic Sans MS", cursive;
+	text-decoration: none;
+	background-color: rgba(207,243,250,0.4);
+	height: 533px;
+	width: 320px;
+	border-left: 1px solid rgba(102,102,102,1);
+	margin-left:-7px;
+	margin-top:-10px;
+}
+#ChatBody {
+	margin-top:11px;
+	height:auto;
+	width:319px;
+	border-bottom:thick black;
+}
+#ChatBodyscrlbr {
+	height:535px;
+	width:319px;
+	overflow-x:hidden;
+	overflow-y:scroll;
+}
+#frndbox {
+	width:300px;
+	height:41px;
+	border-bottom:1px black solid;
+	border-top:1px black solid;
+	cursor:pointer;
+}
+#frndbox:hover {
+	background:rgba(219,157,242,0.6);
+	box-shadow:rgba(153,153,153,1) 1px 1px 1px 1px;
+}
+#frndBxPhoto {
+	height:40px;
+	width:40px;
+	float:left;
+	border:1px black solid;
+}
+#frndBxName {
+	padding-top:6px;
+	width:190px;
+	height:30px;
+	margin-left:-1px;
+	float:left;
+	text-outline:rgba(255,255,255,1);
+	text-shadow:rgba(183,220,114,1) 2px 2px 2px;
+	color:rgba(224,90,10,1);
+}
+#frndBxStatus {
+	height:40px;
+	width:40px;
+	margin-left:-1px;
+	float:left;
+}
+#frndBxStatusShape {
+	margin-left:50px;
+	margin-top:15px;
+	height:13px;
+    width:13px;
+    border-radius: 13px;
+    -moz-border-radius: 13px;
+    -webkit-border-radius: 13px;
+    background:green;
+}
+#ChatBodyscrlbr::-webkit-scrollbar {
+    width: 16px;
+}
+ 
+#ChatBodyscrlbr::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+#ChatBodyscrlbr::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+body {  
+    scrollbar-face-color: #000000;  
+    scrollbar-shadow-color: #2D2C4D;  
+    scrollbar-highlight-color:#7D7E94;  
+    scrollbar-3dlight-color: #7D7E94;  
+    scrollbar-darkshadow-color: #2D2C4D;  
+    scrollbar-track-color: #7D7E94;  
+    scrollbar-arrow-color: #C1C1D1;   
+} 
+
+/*------------------------------------- css for chatFrame ----------------------*/
+
+#mainChatBody {
+	margin-top:-8px;
+	margin-left:-8px;
+	background-color: rgba(255,255,255,1);
+	width: 280px;
+	height: 350px;
+	border-top-width: 1px;
+	border-right-width: 2px;
+	border-bottom-width: 3px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-right-style: groove;
+	border-bottom-style:outset;
+	border-left-style: groove;
+	border-top-color: rgba(132,22,222,1);
+	border-right-color: rgba(132,22,222,1);
+	border-bottom-color: rgba(132,22,222,1);
+	border-left-color: rgba(132,22,222,1);
+	border-radius: 8px 8px 10px 10px;
+	-webkit-box-shadow: rgba(0,0,0,1) 0 0px 0;
+	-moz-box-shadow: rgba(0,0,0,1) 0 0px 0;
+	box-shadow: rgba(0,0,0,1) 0 0px 0;
+}
+#mainChatBodyHead {
+	background-color: rgba(132,22,222,1);
+	height: 24px;
+	width: 274px;
+	margin-left:-2px;
+	padding-left:6px;
+	text-shadow:rgba(103,201,14,1) 1px 1px;
+	font-family: "Comic Sans MS", cursive;
+	font-style:italic;
+	font-size:15px;
+	letter-spacing:1.3px;
+	color:rgba(213,252,122,1);
+	border-top:1px solid rgba(132,22,222,1);
+	border-radius: 7px 6px 0px 0px;
+	-webkit-box-shadow: rgba(0,0,0,1) 0 0px 0;
+	-moz-box-shadow: rgba(0,0,0,1) 0 0px 0;
+	box-shadow: rgba(0,0,0,1) 0 0px 0;
+}
+#mainChatBodyHeadNm {
+	width:250px;
+	cursor:pointer;
+}
+#mainChatBodyHeadCls {
+	position: absolute;
+	height: 20px;
+	width: 18px;
+	background-color: rgba(153,0,0,1);
+	cursor: pointer;
+	top: 5px;
+	left: 261px;
+	border: 0px;
+	outline: 0px;
+	background: transparent;
+	border-radius: 60%;
+	cursor: pointer;
+	background-image: url(../images/close16_16.png);
+	background-repeat: no-repeat;
+}
+#mainChatBodyHeadCls:hover {
+	cursor: pointer;
+	background-image: url(../images/close16_16_hover.png);
+	background-repeat: no-repeat;
+}
+#msgChatBody {
+	
+}
+#scrollChatBody {
+	width: 280px;
+	height: 270px;
+	overflow-y:scroll;
+	overflow-x:hidden;
+	padding-top:1px;
+	padding-bottom:2px;
+	margin-left:-1px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-style: oblique;
+	font-size: 15px;
+	word-spacing:1.8px;
+	letter-spacing:0.3px;
+}
+
+#msgChatBodyBox {
+	width:254px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:2px;
+	padding-bottom:2px;
+	height:auto;
+	background-color:rgba(177,135,248,0.5);
+	border-bottom:1px solid black;
+}
+#msgChatBodyBoxCntntNM {
+	font-size: 16px;
+	letter-spacing:0.9px;
+	text-shadow:1px 1px #FFFFFF;
+}
+#spanstsseeN {
+	text-shadow:1px 1px 1px #FFFFFF;
+}
+#mainChatBodyText {
+	height: 47px;
+	width: 281px;
+	margin-left:1px;
+	margin-top:2px;
+	border-top:2px solid rgba(132,22,222,1);
+}
+#mainChatBodyTextIp {
+	margin-top:1px;
+	height:39px;
+	width:235px;
+	overflow-y:auto;
+	overflow-x:hidden;
+	box-shadow:none;
+}
+#imgsmly {
+	position: absolute;
+	left: 248px;
+	top: 304px;
+	width: 30px;
+	height: 31px;
+	cursor:pointer;
+}
+#smiliblock {
+	position: absolute;
+	left: 130px;
+	top: 194px;
+	height: auto;
+	width: auto;
+	border: 1px groove rgba(102,102,102,0.8);
+	box-shadow: 1px 1px 1px #660066;
+	background-color:rgba(248,228,250,0.7);
+	cursor:pointer;
+	display:none;
+}
+#spnmsgBD {
+		
+}

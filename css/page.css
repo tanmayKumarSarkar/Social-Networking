@@ -1,0 +1,216 @@
+@charset "utf-8";
+body,h1,h2,h3,p,quote,small,form,input,ul,li,ol,label{
+	/* The reset rules */
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	color: #555555;
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 100%;
+	background-attachment: fixed;
+	background-color: #C7C7C7;
+	background-image: url(../images/bg6.png);
+	background-repeat: repeat;
+	float: left;
+	height: 50px;
+	
+}
+
+h1{
+	font-size:28px;
+	font-weight:bold;
+	font-family:"Trebuchet MS",Arial, Helvetica, sans-serif;
+	letter-spacing:1px;
+}
+
+h2{
+	font-family:"Arial Narrow",Arial,Helvetica,sans-serif;
+	font-size:10px;
+	font-weight:normal;
+	letter-spacing:1px;
+	padding-left:2px;
+	text-transform:uppercase;
+	white-space:nowrap;
+	margin-top:4px;
+	color:#888888;
+}
+
+a, a:visited {
+	color:#00BBFF;
+	text-decoration:none;
+	outline:none;
+}
+
+a:hover{
+	
+}
+.top {
+	background-image: url(../images/bg20.png);
+	background-repeat: repeat;
+	height: 50px;
+	width: auto;
+	font-size: 25px;
+	color: #D27CF3;
+}
+#top .ff {
+	font-family: "MS Serif", "New York", serif;
+	font-weight: normal;
+	font-style: normal;
+	letter-spacing: 1px;
+	word-spacing: 20px;
+	vertical-align: middle;
+	text-align: center;
+	display: block;
+	position: absolute;
+	height: auto;
+	width: 1000px;
+	left: 3px;
+	top: 13px;
+}
+#top .home {
+	font-family: "MS Serif", "New York", serif;
+	font-weight: normal;
+	font-style: normal;
+	letter-spacing: 1px;
+	word-spacing: 20px;
+	vertical-align: middle;
+	text-align: center;
+	display: block;
+	position: absolute;
+	height: auto;
+	width: 95px;
+	opacity: ;
+	left: 318px;
+	top: 10px;
+}
+#top .message {
+	font-family: "MS Serif", "New York", serif;
+	font-weight: normal;
+	font-style: normal;
+	letter-spacing: 1px;
+	word-spacing: 20px;
+	vertical-align: middle;
+	text-align: center;
+	display: block;
+	position: absolute;
+	height: auto;
+	width: 130px;
+	left: 577px;
+	top: 10px;
+}
+#top .profile {
+	font-family: "MS Serif", "New York", serif;
+	font-weight: normal;
+	font-style: normal;
+	letter-spacing: 1px;
+	word-spacing: 20px;
+	vertical-align: middle;
+	text-align: center;
+	display: block;
+	position: absolute;
+	height: auto;
+	width: 125px;
+	left: 436px;
+	top: 10px;
+}
+#top .friends {
+	font-family: "MS Serif", "New York", serif;
+	font-weight: normal;
+	font-style: normal;
+	letter-spacing: 1px;
+	word-spacing: 20px;
+	vertical-align: middle;
+	text-align: center;
+	display: block;
+	position: absolute;
+	height: auto;
+	width: 130px;
+	left: 739px;
+	top: 10px;
+}
+#top .chat {
+	font-family: "MS Serif", "New York", serif;
+	font-weight: normal;
+	font-style: normal;
+	letter-spacing: 1px;
+	word-spacing: 20px;
+	vertical-align: middle;
+	text-align: center;
+	display: block;
+	position: absolute;
+	height: auto;
+	width: 60px;
+	left: 1044px;
+	top: 10px;
+}
+#top .photos {
+	font-family: "MS Serif", "New York", serif;
+	font-weight: normal;
+	font-style: normal;
+	letter-spacing: 1px;
+	word-spacing: 20px;
+	vertical-align: middle;
+	text-align: center;
+	display: block;
+	position: absolute;
+	height: auto;
+	width: 110px;
+	left: 901px;
+	top: 10px;
+}
+#top .lgout {
+	font-family: "MS Serif", "New York", serif;
+	font-weight: normal;
+	font-style: normal;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	vertical-align: middle;
+	text-align: center;
+	display: block;
+	position: absolute;
+	height: auto;
+	width: 105px;
+	left: 1146px;
+	top: 10px;
+}
+
+.middle{
+	height:330px;
+	width:100%;
+	background-image:url(../images/Mist%20in%20the%20Forrest.jpg)
+	
+}
+.middle .user{
+	position: absolute;
+	width: 234px;
+	height: 105px;
+	left: 186px;
+	top: 267px;
+	
+}
+.middle .photo{
+	position: absolute;
+	width: 149px;
+	height: 166px;
+	left: 16px;
+	top: 200px;
+	
+}
+
+.left{
+	position: relative;
+	float: left;
+	height: auto;
+	width: 200px;
+	background-color: #C4F3BE;
+	
+}
+#top .ff strong {
+	position: absolute;
+	width: auto;
+	left: 3px;
+	top: -5px;
+}
